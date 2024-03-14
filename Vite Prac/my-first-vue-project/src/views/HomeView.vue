@@ -1,11 +1,14 @@
 <script setup>
-import {useFlash} from '@/composables/useFlash.js'
+import TabbableTextarea from "@/components/TabbableTextarea.vue";
+import {ref} from "vue";
 
-let { flash } = useFlash()
+let comment = ref('test value')
 </script>
 
 <template>
   <main>
-    <button @click="flash('Babago','it is home page')">click me</button>
+    <form>
+      <TabbableTextarea v-model="comment" style="width: 100%;height: 300px" />
+    </form>
   </main>
 </template>
