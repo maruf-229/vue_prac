@@ -3,9 +3,11 @@ import QuizHeader from "@/components/Quiz/QuizHeader.vue";
 import QuizQuestion from "@/components/Quiz/QuizQuestion.vue";
 import QuizFooter from "@/components/Quiz/QuizFooter.vue";
 
-import {provide} from "vue";
+import {state} from "@/stores/quizStore.js";
 
-let props = defineProps({ quiz: Object });
+// import {provide} from "vue";
+
+// let props = defineProps({ quiz: Object });
 
 // let name = ref('John Doe')
 
@@ -14,7 +16,7 @@ let props = defineProps({ quiz: Object });
 //   changedName: () => name.value = 'A changed Name'
 // });
 
-provide('quiz',props.quiz)
+// provide('quiz',props.quiz)
 
 </script>
 
@@ -25,6 +27,7 @@ provide('quiz',props.quiz)
 
   <QuizQuestion />
 
-  <QuizFooter :quiz="quiz"/>
+<!--  <QuizFooter :quiz="quiz"/>-->
+  <QuizFooter />
 
 </template>
