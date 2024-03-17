@@ -1,0 +1,29 @@
+{
+  "members": [
+    {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "status": "active"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "status": "inactive"
+    },
+    {
+      "name": "Michael Johnson",
+      "email": "michael.johnson@example.com",
+      "status": "active"
+    },
+    {
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "status": "active"
+    },
+    {
+      "name": "David Wilson",
+      "email": "david.wilson@example.com",
+      "status": "inactive"
+    }
+  ]
+}

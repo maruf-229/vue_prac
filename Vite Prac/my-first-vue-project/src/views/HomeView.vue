@@ -5,6 +5,6 @@ import {state} from "@/stores/quizStore.js";
 </script>
 <template>
   <main>
-    <Quiz :quiz=state />
+<!--    <Quiz :quiz=state />-->
   </main>
 </template>
